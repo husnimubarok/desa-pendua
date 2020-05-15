@@ -1,5 +1,55 @@
 {
+  "DECOR": {
+    "NorthArrow": {
+      "color": "0x666666",
+      "visible": true
+    }
+  },
   "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "poi_pendua_f0b65966_c8a0_41ce_b1ce_a9b18757aa55",
+      "name": "poi_pendua",
+      "properties": {
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": true,
+        "checkBox_Visible": true,
+        "comboBox_Label": 1,
+        "comboBox_ObjectType": "Sphere",
+        "comboBox_altitudeMode": "s09e116_mercator_3857_7f9fce24_6116_425f_b6c4_27fb1766cd2f",
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "40",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "2",
+          "type": 1
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
     {
       "geomType": 0,
       "layerId": "s09e116_mercator_3857_7f9fce24_6116_425f_b6c4_27fb1766cd2f",
@@ -10,12 +60,12 @@
         "checkBox_Shading": true,
         "checkBox_Sides": true,
         "checkBox_Surroundings": false,
-        "checkBox_TransparentBackground": false,
+        "checkBox_TransparentBackground": true,
         "checkBox_Visible": true,
         "colorButton_Color": "0x000000",
         "comboBox_ClipLayer": null,
-        "comboBox_TextureSize": 100,
-        "horizontalSlider_DEMSize": 2,
+        "comboBox_TextureSize": 400,
+        "horizontalSlider_DEMSize": 6,
         "lineEdit_ImageFile": "",
         "radioButton_MapCanvas": true,
         "spinBox_Opacity": 100,
@@ -46,5 +96,30 @@
       "properties": {},
       "visible": false
     }
-  ]
+  ],
+  "OPT": {
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "pos": {
+        "x": 7.211677020768791,
+        "y": 43.18447216553181,
+        "z": 44.241640651116384
+      }
+    }
+  },
+  "OutputFilename": "C:/Users/husnix/OneDrive - IFRC/Documents/QGIS Sandbox Project/Pendua\\index.html",
+  "SCENE": {
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "100",
+    "lineEdit_zFactor": "1.0",
+    "lineEdit_zShift": "0"
+  },
+  "Template": "3DViewer.html"
 }
